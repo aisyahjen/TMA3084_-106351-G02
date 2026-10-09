@@ -10,7 +10,7 @@ void main() {
 
   while (continueOrder.toLowerCase() == 'yes') {
     print('\nPlease enter your pizza size (small, medium, or large):');
-    String pizzaSize = stdin.readLineSync()!.toLowerCase();
+    String pizzaSize = stdin.readLineSync()!.toLowerCase();                           
 
     double price = 0;
 
